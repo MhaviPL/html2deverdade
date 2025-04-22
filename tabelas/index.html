@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body{
+            background-image: linear-gradient(to right top, #ff7900, #ff063b, #ff0074, #d700bb, #000cff);
+           
+            background-size: contain ;
+            background-attachment: fixed;
+        }
+
+        header{
+            height: 50px;
+            background-color: #d700ba00;
+        }
+        caption{
+            font-size: 2em;
+        }
+        main{
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.425);
+            border-radius: 15px;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 25px;
+            background-color: rgba(219, 219, 219, 0.788);
+            
+        }
+        table {
+            border-radius: 10px;
+            border-collapse: separate; /* Altere isso */
+            border-spacing: 6px;       /* Espaçamento entre células */
+        }
+
+        td, th {
+            box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.212);
+            padding: 7px;
+            width: auto;
+            height: auto;
+            border-radius: 10px;
+            background-color: rgba(102, 255, 0, 0.788);
+            border: none;
+            text-align: center;
+            
+            
+        }
+        .nome{
+            width: 360px;
+        }
+        img{
+            width: 60px;
+            border-radius: 15px;
+        }
+        .imagen{
+            width: 80px;
+            text-align: center;
+        }
+        ol{
+            list-style-type: upper-roman;
+            font-size: 1.5em;
+            display: block;
+            margin-left: 80px;
+            margin-top: 30px;
+            background-position: center;
+        }
+        ul{
+            list-style-type: none;
+            font-size: 1.5em;
+            display: block;
+            margin-left: 83px;
+            margin-top: 30px;
+            background-position: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <table>
+        
+                <caption>
+                    <strong>Classificação do Top 7 da Liga Neo Egoísta</strong>
+                </caption>
+                <thead>
+                <tr>
+                    <th>Top</th>
+                    <th>Jogador</th>
+                    <th>Nome</th>
+                    <th>Clube</th>
+                    <th>Oferta máx</th>
+                    <th>Gols Marcados</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><img src="Rin.webp" alt=""></td>
+                    <td class="nome">Rin Itoshi</td>
+                    <td class="imagen"><abbr title="Paris X Gen"><img src="pxg.webp" alt="Paris X Gen"></abbr></td>
+                    <td>¥240.000.000,00</td>
+                    <td>7 gols</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><img src="Isagi.webp" alt=""></td>
+                    <td class="nome">Isagi Yoichi</td>
+                    <td class="imagen"><abbr title="Bastard Muchen"><img src="bastard.webp" alt="Bastard Muchen"></abbr></td>
+                    <td>¥240.000.000,00</td>
+                    <td>4 gols</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><img src="Shidou.webp" alt=""></td>
+                    <td class="nome">Shidou Ryusei</td>
+                    <td class="imagen"><abbr title="Paris X Gen"><img src="pxg.webp" alt="Paris X Gen"></abbr></td>
+                    <td>¥160.000.000,00</td>
+                    <td>4 gols</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><img src="Barou.webp" alt=""></td>
+                    <td class="nome">Barou Shoei</td>
+                    <td class="imagen"><abbr title="Ubers"><img src="ubers.webp" alt="Ubers"></abbr></td>
+                    <td>¥150.000.000,00</td>
+                    <td>4 gols</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><img src="Bachira.webp" alt=""></td>
+                    <td class="nome">Bachira Meguru</td>
+                    <td class="imagen"><abbr title="Barcha"><img src="barcha.webp" alt="Barcha"></abbr></td>
+                    <td>¥120.000.000,00</td>
+                    <td>4 gols</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><img src="Chigiri.webp" alt=""></td>
+                    <td class="nome">Chigiri Hyoma</td>
+                    <td class="imagen"><abbr title="Manshine City"><img src="manshine.webp" alt="Manshine"></abbr></td>
+                    <td>¥90.000.000,00</td>
+                    <td>3 gols</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><img src="Reo.webp" alt=""></td>
+                    <td class="nome">Mikage Reo</td>
+                    <td class="imagen"><abbr title="Manshine City"><img src="manshine.webp" alt="Manshine"></abbr></td>
+                    <td>¥78.000.000,00</td>
+                    <td>1 gol</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <ol>
+            <li>Itoshi Rin</li>
+            <li>Isagi Yoichi</li>
+            <li>Shidou Ryusei</li>
+            <li>Barou Shoei</li>
+            <li>Bachira Meguru</li>
+            <li>Chigiri Hyoma</li>
+            <li>Mikage Reo</li>
+        </ol>
+
+        <ul>
+            <li>Itoshi Rin</li>
+            <li>Isagi Yoichi</li>
+            <li>Shidou Ryusei</li>
+            <li>Barou Shoei</li>
+            <li>Bachira Meguru</li>
+            <li>Chigiri Hyoma</li>
+            <li>Mikage Reo</li>
+        </ul>
+    </main>
+</body>
+</html>
