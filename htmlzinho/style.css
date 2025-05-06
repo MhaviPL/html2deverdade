@@ -6,7 +6,8 @@
     font-size: 1em;
     color: #fff;
 }
-.container{
+.flexivel{
+    display: flex;
     max-width: 600px;
     max-height: 300px;
     margin: 0 auto ;
