@@ -1,10 +1,12 @@
 .item{
-    margin: 50px;
-    padding: 15px;
-    background:#447;
+    margin: 5px;
+    padding: 5px;
+    background:#444477;
     text-align: center;
     font-size: 1em;
     color: #fff;
+    text-align: center;
+    align-items: center;
 }
 .flexivel{
     display: flex;
@@ -12,6 +14,10 @@
     max-height: 300px;
     margin: 0 auto ;
     border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+    
 }
 p{
     color: blue;
