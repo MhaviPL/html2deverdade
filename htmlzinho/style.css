@@ -7,7 +7,7 @@
     color: #fff;
     text-align: center;
     align-items: center;
-}
+}               
 .flexivel{
     display: flex;
     max-width: 600px;
@@ -17,8 +17,9 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
-    
-}
-p{
+    flex-direction: row-reverse ;
+               
+}          
+p{      
     color: blue;
-}
+}                           
